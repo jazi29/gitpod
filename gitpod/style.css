@@ -12,16 +12,16 @@ html {
 .container{
     height: 5953px;
     width: 1440px;
-    border: 1px solid red;
     margin: 0 auto;
     background: #F5F3F4;
 }
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
     height: 80px;
-    border: 1px solid rgb(27, 17, 17);
 }
 .menu-ul li{
     display: inline-block;
@@ -33,10 +33,68 @@ header{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-decoration: none;
 }
 .login-button{
     background: #12100C;
     padding: 6px 23px;
     border-radius: 12px;
     color: white;
+}
+/* _______________________________________ */
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    color: #12100C;
+}
+.title-txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    color: rgba(18, 16, 12, 0.7);
+}
+.title-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+.title-btn{
+    background: #FFAE33;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #12100C;
+    padding: 12px 46px;
+}
+.button-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 16, 12, 0.7);
+}
+.title-link{
+    display: flex;
+    gap: 24px;
+}
+.title-button{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+.git-icons{
+    display: flex;
+    gap: 29px;
 }
