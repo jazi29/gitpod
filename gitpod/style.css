@@ -50,6 +50,11 @@ h1{
     line-height: 88px;
     color: #12100C;
 }
+.title-text{
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+}
 .title-txt{
     font-style: normal;
     font-weight: 400;
@@ -57,11 +62,16 @@ h1{
     line-height: 32px;
     color: rgba(18, 16, 12, 0.7);
 }
+.title-block-words{
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    padding-top: 25px;
+}
 .title-block{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 130px;
+    justify-content: space-around;
 }
 .title-btn{
     background: #FFAE33;
@@ -97,4 +107,29 @@ h1{
 .git-icons{
     display: flex;
     gap: 29px;
+}
+.title-photo{
+    padding-top: 52px;
+}
+/* ______________________________________________ */
+
+.main-text{
+    padding-top: 176px;
+}
+.h2-main{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    color: #12100C;
+}
+.h2-main-span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #999795;
 }
