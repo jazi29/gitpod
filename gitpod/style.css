@@ -133,3 +133,69 @@ h1{
     text-decoration-line: line-through;
     color: #999795;
 }
+
+/* _______________________________________________ */
+
+
+.compiler-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 300px;
+}
+h4{
+    display: flex;
+    width: 495px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #12100C;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.compiler-text{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.compiler-title{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.compiler-txt{
+    display: flex;
+    width: 648px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(18, 16, 12, 0.70);
+    font-size: 24px;
+    line-height: 31.92px;
+}
+.compiler-buttons{
+    display: flex;
+    gap: 16px;
+}
+.compiler-buttons button{
+    color: #12100C;
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 16px;
+}
+.compiler-btn-fir{
+    border-radius: 10.5px;
+    background: #FFAE33;
+    padding: 9px 18px;
+    border: none;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.compiler-btn-sec{
+    border-radius: 10.5px;
+    background: #FFB0AE;
+    padding: 9px 24px;
+    border: none;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
